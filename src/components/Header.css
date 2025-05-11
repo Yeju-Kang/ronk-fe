@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #6b63ff;
+  color: #fff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  cursor: pointer;
+}
+
+.main-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.theme-toggle {
+  cursor: pointer;
+  background-color: #5a52e8;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background-color: #4a43d4;
+}
